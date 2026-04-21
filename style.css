@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: #f0f2f5;
+}
+
+.card {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#result {
+    height: 60px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    box-shadow: inset 0 2px 5px rgba(0,0,0,0.2);
+}
+
+button {
+    height: 50px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 10px !important;
+    transition: transform 0.1s ease;
+}
+
+button:active {
+    transform: scale(0.95);
+}
